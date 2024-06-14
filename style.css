@@ -1,0 +1,117 @@
+* {
+  margin:0;  
+}
+
+body {
+    background-color: #1F2039;
+    color:#F9F8FF;
+}
+
+h1 {
+font-family: Montserrat, sans-serif;
+color:#A5B4FC;
+font-size: 3.5em;
+}
+
+h2 {
+    color: #f9f8ff;
+}
+
+em {
+    color: #a5b4fc;
+    font-style: normal;
+}
+
+p {
+    font-size: 1.1em;
+    font-family: Manrope, sans-serif;
+}
+
+ul {
+    font-size: 1em;
+    font-family: Manrope, sans-serif;
+}
+
+a {
+    color: #242424;
+    text-decoration:none;
+    font-size: 1em;
+    font-family: Manrope;
+}
+
+.cta {
+    background: linear-gradient(90deg,#8360c3,#2ebf91);
+    border-radius: 50px;
+    color: white;
+}
+
+nav,
+footer {
+    background-color:white ;
+    color:#242424;
+    padding: 20px 50px 20px 50px;
+}
+
+nav {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+}
+
+footer {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:end;
+    align-items: center;
+    gap: 50px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+h2 + ul {
+    margin-top: 10px;
+}
+
+section {
+    padding: 80px ;
+}
+
+.a-propos {
+    margin:auto;
+}
+
+/* encadré autour de la description de Robbie et les services */
+.carre-contenu {
+    border: solid #8e86b5;
+    border-width: 0px 1px 1px 0px; 
+    padding:50px;  
+}
+
+
+/* pseudo-classe hover sur certains éléments */
+
+.cta:hover {
+    background: linear-gradient(90deg,#696484,#8788BA);
+}
+
+.hypertexte:hover {
+    text-decoration: underline;
+}
+
+nav a:hover {
+    opacity: 0.5;
+}
+
+footer a:hover {
+    opacity: 0.5;
+}
+
+.photo:hover {
+    opacity: 0.5;
+}
+
